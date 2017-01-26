@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.joan.practicafinalandroid.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:text="Intent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnIntent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:padding="1dp" />
+
+        <Button
+            android:text="SharedPreferences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/btnCalc"
+            android:layout_below="@+id/btnIntent"
+            android:layout_alignParentStart="true"
+            android:padding="1dp" />
+
+        <Button
+            android:text="SQLite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/btnBD"
+            android:layout_below="@+id/btnCalc"
+            android:layout_alignParentStart="true"
+            android:padding="1dp" />
+
+        <Button
+            android:text="Fitxers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:id="@+id/btnFitxers"
+            android:layout_below="@+id/btnBD"
+            android:layout_alignParentStart="true"
+            android:padding="1dp" />
+
+        <Button
+            android:text="StartActivityForResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:id="@+id/btnSta"
+            android:layout_below="@+id/btnFitxers"
+            android:layout_alignParentStart="true"
+            android:padding="1dp" />
+
+        <Button
+            android:text="ContentProvider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:id="@+id/btnCont"
+            android:layout_below="@+id/btnSta"
+            android:layout_alignParentStart="true"
+            android:padding="1dp" />
+
+        <Button
+            android:text="BroadcastReceiver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/btnBro"
+            android:layout_below="@+id/btnCont"
+            android:layout_alignParentStart="true"
+            android:padding="1dp" />
+
+        <Button
+            android:text="Missatgeria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSMS"
+            android:padding="1dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
